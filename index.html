@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психология и Саморазвитие</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/logo.png" alt="Психология" class="logo-img">
+                    <span class="logo-text">Психология</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="about.html">О сайте</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-wrapper">
+        <!-- Главный баннер -->
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="hero-slide active" style="background-image: url('images/hero-bg1.jpg');">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <h1>Психология</h1>
+                        <p>Откройте для себя путь к гармонии и самопознанию</p>
+                    </div>
+                </div>
+                <div class="hero-slide" style="background-image: url('images/hero-bg2.png');">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <h1>Медитация</h1>
+                        <p>Найдите внутренний покой и баланс</p>
+                    </div>
+                </div>
+                <div class="hero-slide" style="background-image: url('images/hero-bg3.png');">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <h1>Развитие</h1>
+                        <p>Раскройте свой потенциал</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow prev">&lt;</button>
+            <button class="slider-arrow next">&gt;</button>
+            <div class="slider-dots"></div>
+        </section>
+
+        <div class="container main-container">
+            <!-- Боковое меню -->
+            <aside class="sidebar">
+                <div class="sidebar-content">
+                    <h3>Разделы сайта</h3>
+                    <ul>
+                        <li><a href="psychology.html">Психология</a></li>
+                        <li><a href="meditation.html">Медитация</a></li>
+                        <li><a href="practices.html">Практики</a></li>
+                        <li><a href="growth.html">Личностный рост</a></li>
+                    </ul>
+                    
+                    <h3 class="recent-posts">Последние статьи</h3>
+                    <ul class="posts-list">
+                        <li><a href="#">Как начать медитировать</a></li>
+                        <li><a href="#">Техники самопознания</a></li>
+                        <li><a href="#">Путь к осознанности</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Основной контент -->
+            <main class="main-content">
+                <section class="features">
+                    <h2>Исследуйте свой путь</h2>
+                    <p>Откройте для себя практические инструменты для личностного роста и самопознания</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="images/mindfulness.jpg" alt="Статьи и исследования">
+                            </div>
+                            <h3>Статьи и исследования</h3>
+                            <p>Глубокие исследования психологии и практические советы для повседневной жизни</p>
+                            <a href="articles/mindfulness.html" class="feature-link">Читать статьи →</a>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="images/meditation.jpg" alt="Медитации и практики">
+                            </div>
+                            <h3>Медитации и практики</h3>
+                            <p>Техники медитации и осознанности для ежедневной практики</p>
+                            <a href="articles/meditation-beginners.html" class="feature-link">Начать практику →</a>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="images/growth.jpg" alt="Личные консультации">
+                            </div>
+                            <h3>Личные консультации</h3>
+                            <p>Индивидуальная поддержка и программы развития</p>
+                            <a href="articles/personal-growth.html" class="feature-link">Записаться →</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="latest-articles">
+                    <h2>Новые публикации</h2>
+                    <div class="articles-grid">
+                        <article class="article-card">
+                            <img src="images/meditation.jpg" alt="Медитация">
+                            <div class="article-content">
+                                <h3>Основы медитации</h3>
+                                <p>Простое руководство для начинающих практику медитации</p>
+                                <a href="#" class="read-more">Читать далее →</a>
+                            </div>
+                        </article>
+                        <article class="article-card">
+                            <img src="images/mindfulness.jpg" alt="Осознанность">
+                            <div class="article-content">
+                                <h3>Практика осознанности</h3>
+                                <p>Как оставаться в настоящем моменте</p>
+                                <a href="#" class="read-more">Читать далее →</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p> 2024 Психология и Саморазвитие</p>
+                </div>
+                <div class="footer-links">
+                    <a href="contacts.html">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
